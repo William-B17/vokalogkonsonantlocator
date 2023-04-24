@@ -46,5 +46,5 @@ for i=1, #text do
         end
     end
 end
-message = table.concat(nettotext)
-print(message)
+
+print(table.concat(nettotext))
